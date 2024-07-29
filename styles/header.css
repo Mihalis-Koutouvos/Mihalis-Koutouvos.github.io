@@ -1,0 +1,124 @@
+.header {
+    height: 100px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    /* border-style, border-color, and border-width must 
+    used together */
+
+}
+
+.left-section {
+    /*display: flex*/
+    font-family: 'Cormorant', serif;
+    font-size: 30px;
+    padding-left: 10px;
+
+}
+
+.left-section:hover {
+    transform: scale(0.8);
+    transition: 0.30s;
+}
+
+
+.middle-section {
+    padding-right: 160px;
+    padding-top: 15px;
+
+
+}
+
+
+.about-button {
+    height: 45px;
+    width: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-right: 42px;
+    font-family: 'Inter', sans-serif; 
+    color: black;
+    background-color: lightblue;
+    border-radius: 30px;
+    border-color: #0d5eaf;
+  
+    
+}
+
+.skills-button {
+    height: 45px;
+    width: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-right: 38px;
+    font-family: 'Inter', sans-serif; 
+    color: black;
+    background-color: lightblue;
+    border-radius: 30px;
+    border-color: #0d5eaf;
+}
+
+.projects-button {
+    height: 45px;
+    width: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-right: 54px;
+    font-family: 'Inter', sans-serif; 
+    color: black;
+    background-color: lightblue;
+    border-radius: 30px;
+    border-color: #0d5eaf;
+}
+
+.interests-button {
+    height: 45px;
+    width: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-right: 58px;
+    font-family: 'Inter', sans-serif; 
+    color: black;
+    background-color: lightblue;
+    border-radius: 30px;
+    border-color: #0d5eaf;
+}
+
+.contact-button {
+    height: 45px;
+    width: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 54px;
+    font-family: 'Inter', sans-serif; 
+    color: black;
+    background-color: lightblue;
+    border-radius: 30px;
+    border-color: #0d5eaf;
+}
+
+.about-button:hover, .skills-button:hover, .projects-button:hover, 
+.interests-button:hover, .contact-button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px darkgray;
+    transition: 0.15s;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
+.right-section {
+    padding-right: 45px;
+    padding-top: 35px;
+}
