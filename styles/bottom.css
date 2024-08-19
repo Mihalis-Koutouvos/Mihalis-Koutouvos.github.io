@@ -13,12 +13,47 @@
     background: linear-gradient(145deg, #8ca3d1, #a6c2f8);
     box-shadow:  17px 17px 26px #879dca,
                  -17px -17px 26px #afcdff;
-    height: 200px;
-    width: auto;
     font-family: 'Inter', sans-serif; 
     font-size: 20px;
+    border-right: 5px solid;
     color: black;
     padding-top: 10px;
     padding-left: 14px;
+    height: 200px;
+    width: auto; 
 }
 
+
+
+.personal-text {
+    display: inline-block;
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.p-text {
+    font-size: 5em;
+    letter-spacing: 10px;
+    font-family: 'Inter', sans-serif; 
+    border-right: 5px solid;
+    width: 100%; /*auto*/
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 10s steps(250),
+        cursor .4s step-end infinite alternate;
+}
+
+/*Allows for the blinking animation*/
+@keyframes cursor {
+    50% {border-color: transparent}
+}
+
+/*Allows for the typing animation*/
+@keyframes typing {
+    from {width: 0}
+}
