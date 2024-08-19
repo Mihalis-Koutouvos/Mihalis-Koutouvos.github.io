@@ -19,7 +19,8 @@
     <body>
         <div class="header"> 
             <div class="left-section">
-                <p>A Moment with Mihalis</p>
+                <button onclick="toHome()" class="home-button">A Moment with Mihalis</button> 
+                <!--<p>A Moment with Mihalis</p>-->
             </div>
 
             <div class="middle-section"> 
@@ -48,6 +49,10 @@
 
         
         <script>
+            function toHome() {
+                window.location.href = "http://127.0.0.1:5500/main.html";
+            }
+
             function toAbout() {
                 window.location.href = "http://127.0.0.1:5500/about.html";
             }

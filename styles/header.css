@@ -15,11 +15,28 @@
 }
 
 .left-section {
+    /*display: flex
+    font-family: 'Cormorant', serif;
+    font-size: 30px;
+    padding-left: 10px;
+    */
+    font-size: 64px;
+    padding-left: 10px;
+}
+
+.home-button {
     /*display: flex*/
     font-family: 'Cormorant', serif;
     font-size: 30px;
     padding-left: 10px;
+    height: auto;
+    width: auto;
+    color: black;
+    border-radius: 100px;
+    border: none; 
+    background-color: transparent;
 
+    
 }
 
 .left-section:hover {
