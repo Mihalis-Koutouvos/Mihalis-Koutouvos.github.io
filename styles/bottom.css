@@ -1,34 +1,24 @@
 
 .intro-box {
-    height: 500px;
-    width: 900px;
-
-    margin-left: 400px;
-    margin-top: 20px;
-
-    background-color: white;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 30px;
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
+    background: transparent;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: none;
+    padding-top: 100px;
 
 }
 
-.text-section {
-    height: 250px;
-    width: 800px;
-
+.neumorphic-text-section {
+    border-radius: 73px;
+    background: linear-gradient(145deg, #8ca3d1, #a6c2f8);
+    box-shadow:  17px 17px 26px #879dca,
+                 -17px -17px 26px #afcdff;
+    height: 200px;
+    width: auto;
     font-family: 'Inter', sans-serif; 
-    font-size: 40px;
+    font-size: 20px;
     color: black;
-
-    padding-left: 80px;
-    padding-bottom: 300px;
+    padding-top: 10px;
+    padding-left: 14px;
 }
 
