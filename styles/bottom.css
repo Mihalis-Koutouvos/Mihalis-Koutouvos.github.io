@@ -8,6 +8,11 @@
 
 }
 
+.arnold-text {
+    padding-top: 8px;
+    padding-left: 375px;
+}
+
 .neumorphic-text-section {
     border-radius: 73px;
     background: linear-gradient(145deg, #8ca3d1, #a6c2f8);
@@ -17,9 +22,9 @@
     font-size: 20px;
     border-right: 5px solid;
     color: black;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 14px;
-    height: 200px;
+    height: 100px;
     width: auto; 
 }
 
@@ -27,24 +32,27 @@
 
 .personal-text {
     display: inline-block;
-    background: rgba( 255, 255, 255, 0.5 );
+    background: rgba( 255, 255, 255, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 1.5px );
-    -webkit-backdrop-filter: blur( 1.5px );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
 .p-text {
-    font-size: 5em;
-    letter-spacing: 10px;
+    font-size: 30px;
     font-family: 'Inter', sans-serif; 
     border-right: 5px solid;
     width: 100%; /*auto*/
     white-space: nowrap;
     overflow: hidden;
     animation:
-        typing 10s steps(250),
+        typing 6s steps(250),
         cursor .4s step-end infinite alternate;
 }
 
