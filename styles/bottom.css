@@ -13,6 +13,7 @@
     padding-left: 375px;
 }
 
+
 .neumorphic-text-section {
     border-radius: 73px;
     background: linear-gradient(145deg, #8ca3d1, #a6c2f8);
@@ -55,6 +56,10 @@
         typing 6s steps(250),
         cursor .4s step-end infinite alternate;
 }
+
+
+
+
 
 /*Allows for the blinking animation*/
 @keyframes cursor {
