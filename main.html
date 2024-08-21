@@ -43,14 +43,16 @@
             </div>
 
             <div class="right-section">
-                <img class="olive_branch" src="personal-pictures/olive_branch.png">
+                <button onclick="toSecretPage()" class="olive-branch-button">
+                    <img class="olive_branch" src="personal-pictures/olive_branch.png">
+                </button>
             </div>
 
 
         </div>
         
 
-        
+
         <div class="intro-box">
             <div class="neumorphic-text-section">
                 <p class="arnold-text">"You can't climb the ladder of success with your hands in your pockets." 
@@ -116,6 +118,10 @@
 
             function toContact() {
                 window.location.href = "http://127.0.0.1:5500/about.html";
+            }
+
+            function toSecretPage() {
+                window.location.href = "http://127.0.0.1:5500/secret.html";
             }
 
         </script>
